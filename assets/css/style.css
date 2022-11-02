@@ -1,0 +1,1733 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+
+body{
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    text-align: right;
+    background: #fff;
+    overflow-x: hidden;
+  position: relative;
+}
+a:hover{
+    text-decoration: none;
+}
+/*********************************Navbar Start*****************************************/
+.header{
+    position: absolute;
+    z-index: 150;
+    top:0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.navbar-light.bg-light{
+    background: transparent !important;
+    margin-right: 10%;
+}
+.navbar .navbar-brand{
+    width: 112px;
+    height: 77px;
+}
+.navbar .navbar-brand img{
+    width: 100%;
+}
+.navbar .nav-item .nav-link{
+    color:#fff;
+    font-size: 16px;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #FF0000;
+}
+.navbar .navbar-nav{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.navbar .form-inline .members-place{
+    display: inline-block;
+    color:#fff;
+    width: 145px;
+    height: 47px;
+    border:1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 47px;
+    background:rgba(255, 255, 255, 0.25)
+}
+.navbar .form-inline .members-place:hover,
+.navbar .form-inline .members-place:hover svg path{
+    color: #FF0000;
+    fill: #FF0000 !important;
+
+}
+
+/*********************************Navbar End******************************************/
+
+/*********************************Hero Section Start***********************************/
+.index-carousal{
+    position: relative;
+    height: 840px;
+}
+#carouselExampleIndicators.index-carousal .carousel-inner{
+    width: 100%;
+    height: 840px;
+}
+#carouselExampleIndicators.index-carousal .carousel-inner .carousel-item{
+    width: 100%;
+    height: 100%;
+}
+#carouselExampleIndicators.index-carousal .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.index-carousal .carousal-overlay{
+    position: absolute;
+    z-index:5;
+    width: 100%;
+    height: 100%;
+    top:0;
+    right: 0;
+    left: 0;
+    background:#000;
+    opacity: 0.7;
+}
+#carouselExampleIndicators.index-carousal .carousel-indicators,
+#carouselExampleIndicators.index-carousal .carousel-inner .carousel-item .carousel-caption{
+    z-index: 100 !important;
+}
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    background-color: #ff0000;
+}
+
+.index-carousal .carousel-caption{
+    bottom: 20% !important;
+}
+.index-carousal .carousel-caption h5{
+    font-size: 30px;
+    margin-bottom: 50pxs;
+}
+.index-carousal .carousel-caption h1{
+    font-size: 85px;
+    margin-bottom: 40px;
+}
+.index-carousal .carousel-caption p{
+    font-size: 40px;
+    margin-bottom: 90px;
+}
+.index-carousal .carousel-caption a{
+    color: #fff;
+    background: #FF0000;
+    display: inline-block;
+    font-size: 20px;
+    width: 200px;
+    height:60px;
+    text-align: center;
+    line-height:60px;
+    border-radius: 5px;
+}
+.index-carousal .carousel-caption a:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out
+}
+.carousel-indicators{
+    right: -5%;
+}
+/*********************************Hero Section End*************************************/
+/*********************************about-us start***************************************/
+.about-us{
+    background: #F9F9F9;
+    padding-top: 85px;
+    padding-bottom: 150px;
+}
+.about-us .about-text{
+    background-color: #fff;
+    border-radius: 10px;
+    padding:50px 25px;
+    height: 460px;
+    z-index: 100;
+    position: absolute;
+    left: -11%;
+    top: 2%;
+}
+.about-us .about-text h2{
+    font-size: 20px;
+}
+.about-us .about-text p{
+    font-size: 16px;
+    text-align: justify;
+}
+.about-us .about-img{
+    width: 100%;
+    height: 485px;
+    border-radius: 10px;
+}
+.about-us .about-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+/*********************************about-us End***************************************/
+/**********************************Our trainer Start*********************************/
+.Our-trainer{
+    background-color: #fff;
+    padding:90px 0 0 0;
+    text-align: center;
+}
+.Our-trainer p{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.Our-trainer h3{
+    font-size: 25px;
+    font-weight: bold;
+    width: 60%;
+    margin: 0 auto 30px;
+    line-height: 49px;
+    position: relative;
+}
+.Our-trainer h3::after{
+    position: absolute;
+    content: '';
+    background: #FF0000;
+    height: 2px;
+    width: 150px;
+    /* top: 101%; */
+    right: 38%;
+    bottom: -25%;
+}
+/********************************************************/
+.testimonials {
+    position: relative;
+}
+.inner-testimonials .owl-dots {
+    display: none;
+}
+.custome_slide.owl-carousel .owl-item.active.center .main-reviewimage {
+    border: 2px solid #ff0000;
+}
+.main-reviewimage {
+    border-radius: 50%;
+    height: 310px;
+    width: 100%;
+    background: rgba(255, 255, 255,5);
+}
+.main-reviewimage img {
+    opacity: 0.7;
+}
+#slide-testimonal .active.center .main-reviewimage img {
+    opacity: 1;
+}
+/*****************************************************************************************/
+.test_img {
+    position: relative;
+    opacity: 1;
+    -webkit-transition: .4s ease all;
+    transition: .4s ease all;
+    margin: 0 -48px;
+    margin-top: 40px;
+}
+.inner-testimonials {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+}
+#slide-testimonal .center .test_img:before {
+    content: none;
+    transition: 0.7s ease-in-out;
+}
+.test_img img {
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+.custome_slide.owl-carousel .owl-item.active.center {
+    transform: scale(1.3);
+    margin-top: 0 !important;
+    position: relative;
+    z-index: 999;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.custome_slide.owl-carousel .owl-item {
+    transform: scale(0.7);
+    padding: 10px 0px;
+    transition: all 0.5s;
+}
+.testimonial_detail {
+    text-align: center;
+}
+.testimonial_detail {
+    transform: scale(0.7) !important;
+    width: 447px;
+    position: relative;
+    left: 60px;
+}
+.testimonial_detail h4 {
+    font-size:25px;
+    margin: 0;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.testimonial_detail p {
+    color: #999;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+.testimonial_detail span{
+    display: inline-block;
+    margin-bottom: 30px;
+    padding-left: 5px;
+}
+.testimonial_detail a{
+    display: block;
+    background: rgba(255,0,0,0.20);
+    width: 226.52px;
+    height: 60.7px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 60.7px;
+    font-size: 17px;
+    color:#ff0000;
+    border-radius: 5px;
+}
+.testimonial_detail a:hover{
+    background-color: #FF0000;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out
+}
+.testimonial_detail a:hover svg path{
+    fill: #fff;
+}
+.custome_slide.owl-carousel .active .testimonial_detail {
+    display: none;
+}
+.custome_slide.owl-carousel .active.center .testimonial_detail {
+    display: block !important;
+    width: 924px;
+    position: relative;
+    left: 300px;
+}
+
+
+@media only screen and (max-width:767px){
+ .main-reviewimage {
+   height: 400px;
+   width: 425px;
+   margin: 0 auto;
+   display: block;
+ }
+ .testimonial_detail {
+   left: inherit;
+   width: 100%;
+ }
+}
+
+
+.custome_slide.owl-carousel .owl-nav.disabled{
+    display: block;
+    
+   
+ }
+
+ .custome_slide.owl-carousel .owl-nav button.owl-next,
+ .custome_slide.owl-carousel .owl-nav button.owl-prev{
+    background: #FF0000;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 32px;
+    position: absolute;
+    top: 51%;
+ }
+ .custome_slide.owl-carousel .owl-nav button.owl-next{
+    left:-18%;
+ }
+ .custome_slide.owl-carousel .owl-nav button.owl-prev{
+    right: -18%;
+ }
+/***********************************Our trainer End**********************************/
+/***********************************event details start******************************/
+.event-details{
+    width: 100%;
+    height: 760px;
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding:60px 0;
+    text-align: center;
+    z-index: 5;
+}
+.event-details .overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+top:0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.73);
+z-index: 10;
+}
+.event-details .event-details-content{
+position: absolute;
+width: 100%;
+height: 100%;
+top:60px;
+left: 0;
+right: 0;
+z-index: 20;
+color:#fff;
+}
+.event-details .event-details-content h2{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.event-details .event-details-content ul li{
+    display: inline-block;
+    padding-left: 25px;
+}
+.event-details .event-details-content ul li .text{
+    font-size: 18px;
+}
+/******/
+#countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    border:2px solid #fff;
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  #countdown li span {
+    display: block;
+    font-size: 2.5rem;
+  }
+  
+  .counter .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji .course-start {
+    background: rgba(255,0,0,0.5);
+    width: 70%;
+    margin: 0px auto 40px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    animation: shake-animation 4s ease infinite;
+    transform-origin: 50% 50%;
+    letter-spacing: 1px;
+}
+
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(1.375rem * var(--smaller));
+    }
+  }
+
+  .event-details .Register-now{
+    color: #fff;
+    background: #FF0000;
+    display: inline-block;
+    font-size: 24px;
+    width: 375.54px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  .event-details .Register-now:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out
+  }
+/************************************event details End*******************************/
+/***********************************our-program start********************************/
+.Our-trainer.our-program{
+    background-color: #F9F9F9;
+    padding-bottom: 100px;
+}
+.Our-trainer.our-program .latest-programs{
+    margin-top: 120px;
+}
+.Our-trainer.our-program .latest-programs .single-col{
+    background: #fff;
+    padding:10px;
+    border-radius: 10px;
+    height: 436px;
+}
+.Our-trainer.our-program .latest-programs .single-col .col-img{
+    width: 100%;
+    height: 340px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.Our-trainer.our-program .latest-programs .single-col .col-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.Our-trainer.our-program .latest-programs .single-col .col-text h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+/***********************************our-program End**********************************/
+/**********************************Program price start*******************************/
+.price{
+    padding-bottom: 100px;
+}
+.price .program-price{
+    margin-top: 100px;
+}
+.price .program-price .single-col{
+    background: #fff;
+    height: 420px;
+    padding:60px 10px;
+    box-shadow: 0px 0px 7px -6px rgb(0 0 0);
+-webkit-box-shadow: 0px 0px 7px -6px rgb(0 0 0);
+-moz-box-shadow: 0px 0px 7px -6px rgb(0 0 0);
+}
+.price .program-price .single-col .cource-name{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+.price .program-price .single-col .cource-price{
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    width: 150px;
+    height: 67px;
+    line-height: 67px;
+    margin: 0 auto;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.price .program-price .single-col .cource-desciption{
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.price .program-price .single-col .rejest{
+    background: #999999;
+    color:#fff;
+    padding: 10px 70px;
+    border-radius: 5px;
+}
+.price .program-price .single-col:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out;
+    box-shadow: 0px 0px 10px -8px rgb(0 0 0);
+    -webkit-box-shadow: 0px 0px 10px -8px rgb(0 0 0);
+    -moz-box-shadow: 0px 0px 10px -8px rgb(0 0 0);
+}
+.price .program-price .single-col:hover .rejest{
+    background: #FF0000;
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out;
+}
+/**********************************Program price End*******************************/
+/********************************contact-form start********************************/
+.contact-form{
+    background: #F9F9F9;
+    padding:40px 0;
+}
+.contact-form h3{
+    color: #333333;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.contact-form .contact-message{
+    display: block;
+    width: 100%;
+    height: 190px;
+    background-color: #fff;
+    border:none;
+    resize: none;
+}
+.contact-form form{
+    margin-top: 45px;
+}
+.contact-form form input{
+    background: #fff;
+    border:none;
+    height: 60px;
+}
+.contact-form form .btn-primary{
+    background: #FF0000 !important;
+    color:#fff;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-top: 25px;
+    border:none !important;
+    padding:20px 60px;
+    line-height: 0px;
+}
+.contact-form form .btn-primary:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out;
+}
+/********************************contact-form end********************************/
+/********************************Footer start************************************/
+.footer{
+    background: #333333;
+    color:#fff;
+    padding: 40px 0;
+}
+
+.footer .top-footer{
+    padding-bottom: 35px;
+    border-bottom: 1px solid #fff;
+}
+.footer .sing-col h5{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+.footer .sing-col .page-links li{
+ 
+    font-size: 16px;
+    padding-bottom: 15px;
+  
+}
+.footer .sing-col .social-links{
+    text-align: center;
+    padding-top: 15px;
+}
+.footer .sing-col .social-links li{
+    display: inline-block;
+    list-style: none;
+    background: #fff;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 20px;
+}
+.footer .sing-col .social-links li a{
+    color:#333;
+    font-size: 18px;
+}
+.footer .sing-col.midle-col{
+    height:180px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.footer .sing-col .social-links li.youtube:hover{
+    background: #FF0000;
+}
+.footer .sing-col .social-links li.whatsapp:hover{
+    background: #25D366;
+}
+.footer .sing-col .social-links li.twitter:hover{
+    background: #1DA1F2;
+}
+.footer .sing-col .social-links li.instagram:hover{
+    background: #C13584;
+}
+.footer .sing-col .social-links li:hover a{
+    color:#fff;
+}
+.footer .single-col .our-name{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 45px;
+}
+.footer .single-col .footer-logo{
+    display: inline-block;
+    width: 150px;
+    height: 103px;
+    margin-right: 55px;
+    margin-top: -45px;
+}
+.footer .bottom-footer{
+    text-align: center;
+    padding-top: 40px;
+}
+.footer .bottom-footer p{
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+/********************************Footer End*************************************/
+/*******************************Back to Top*************************************/
+#button {
+    display: inline-block;
+    background-color: #999;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: -10px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button span {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+    display: inline-block;
+    line-height: 40px;
+    
+  }
+  #button span svg path{
+    fill: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #ff0000;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+
+  @media (min-width: 500px) {
+   
+    #button {
+      margin: 30px;
+    }
+  }
+
+ 
+/*******************************************************************************/
+/*********************************mainPage2 Start*********************************************/
+.navbar .form-inline .user-name{
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+}
+.navbar .form-inline .user-name img{
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+.navbar .form-inline .sign-out{
+    color: #fff;
+    background: #ff0000;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.Our-trainer .trainer-inforamtion{
+    padding:30px 0 20px 0;
+}
+.Our-trainer .trainer-inforamtion .trainer-img{
+    width: 100%;
+    height: 500px;
+}
+.Our-trainer .trainer-inforamtion .trainer-description{
+    text-align: right;
+}
+.Our-trainer .trainer-inforamtion .trainer-description p{
+    font-size: 16px;
+    color: #999999;
+    font-weight: normal;
+    line-height: 2;
+    padding-top: 50px;
+}
+.Our-trainer .trainer-inforamtion .trainer-description h4{
+    color: #333333;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.Our-trainer .trainer-inforamtion .trainer-description .stars{
+    margin: 30px 0;
+}
+.Our-trainer .trainer-inforamtion .trainer-description .call{
+    display: block;
+    background: rgba(255,0,0,0.20);
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 17px;
+    color: #ff0000;
+    border-radius: 5px;
+}
+.Our-trainer .trainer-inforamtion .trainer-description .call:hover{
+    background-color: #FF0000;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out;
+}
+/*********************************mainPage2 End***********************************************/
+/********************************new-registration page Start**********************************/
+.new-registration .header{
+    background: #333;
+    position: relative;
+}
+.new-registration .header .navbar .navbar-nav{
+    margin-left: 200px;
+}
+
+.new-registration .new-user{
+    background-color: #F9F9F9;
+    padding:60px 0;
+}
+.new-registration .new-user .form-registration{
+    background: #fff;
+    padding:100px 50px 60px 50px;
+    -webkit-box-shadow: 0px 3px 9px -5px rgb(0 8 22 / 53%); 
+box-shadow: 0px 3px 9px -5px rgb(0 8 22 / 53%);
+}
+.new-registration .new-user .form-registration .form-image.reset-password{
+    width: 442.47px;
+    height: 431.92px;
+}
+
+
+.new-registration .new-user .form-registration .form-image.forget-password{
+    width: 428.14px;
+    height: 443.06px;
+}
+.new-registration .new-user .form-registration .form-image.members-area{
+    width: 495.36px;
+    height: 436.23px;
+}
+.new-registration .new-user .form-registration .form-image.privacypolicy{
+    width: 474px;
+    height: 365.35px;
+}
+.new-registration .new-user .form-registration .form-image.new-registration-image{
+    width: 490px;
+    height: 400.47px;
+}
+.new-registration .new-user .form-registration .form-image.reset-password img,
+.new-registration .new-user .form-registration .form-image.forget-password img,
+.new-registration .new-user .form-registration .form-image.members-area img,
+.new-registration .new-user .form-registration .form-image.privacypolicy img,
+.new-registration .new-user .form-registration .form-image.new-registration-image img{ 
+    width: 100%;
+    height: 100%;
+}
+.new-registration .new-user .form-registration .form-image img{
+    width: 100%;
+   /* height: 100%;*/
+}
+.new-registration .new-user .form-registration .form-col h2{
+    text-align: center;
+    font-size: 25px;
+    color:#333;
+    margin-bottom: 15px;
+}
+.new-registration .new-user .form-registration .form-col p{
+    color: #999;
+    text-align: center;
+    font-size: 15px;
+}
+.new-registration .new-user .form-registration .form-col form input{
+    background: #F9F9F9;
+    border:none;
+    height: 58px;
+    margin-bottom: 30px;
+}
+.new-registration .new-user .form-registration .form-col form input#Check1{
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+  
+}
+.new-registration .new-user .form-registration .form-col form .form-check{
+    display: inline-block;
+    padding-left: 55px;
+}
+.new-registration .new-user .form-registration .form-col form .form-check-label{
+  margin-right: 25px;
+    color: #0090FF;
+}
+
+.new-registration .new-user .form-registration .form-col form .btn-primary{
+    background: #ff0000;
+    border:none;
+    width: 152px;
+    height: 50px;
+    text-align: center;
+    line-height: 35px;
+    float: left;
+}
+.new-registration .new-user .form-registration .form-col form .btn-primary:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out
+}
+
+.new-registration .new-user .form-registration .form-col p.rools{
+    text-align: justify;
+}
+
+
+/********************************new-registration page End*************************************/
+/***********************************personal-Page Start*****************************************/
+
+.personal-Page .header{
+    background: #333;
+    position: relative;
+}
+
+.personality-page .header-background{
+    background-image: url(../img/page-header.png);
+    width: 100%;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+
+}
+.personality-page .header-background .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgb(0,0,0,0.74);
+    z-index: 10;
+}
+.personality-page .header-background h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 285px;
+    color: #fff;
+    top: 27%;
+  
+}
+/****************************************************/
+
+.personal-inforamtion{
+    background-color: #F9F9F9;
+    position: relative;
+    height: 220px;
+   
+}
+.personal-inforamtion .user-data{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 7px -7px rgb(0 8 22 / 53%);
+    box-shadow: 0px 2px 7px -7px rgb(0 8 22 / 53%);
+    padding:95px 40px 20px 20px;
+    z-index: 1000;
+    position: absolute;
+    width: 82%;
+    /* top: -2%; */
+    bottom: 10%;
+    border-radius: 10px;
+
+}
+.personal-inforamtion .user-data .user-image{
+    width: 184px;
+    height: 184px;
+    border-radius: 50%;
+    border:2px solid #fff;
+    position: absolute;
+    top: -100px;
+
+}
+.personal-inforamtion .user-data .user-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.personal-inforamtion .user-data .texts{
+    width: 100%;
+}
+.personal-inforamtion .user-data .texts .single-col{
+    width: 18%;
+    float: right;
+    margin-left: 20px;
+    /*background-color: #555;*/
+    border-left: 1px solid #D8D8D8;
+    height: 150px;
+}
+.personal-inforamtion .user-data .texts .single-col.last-col{
+    border-left: none;
+}
+.personal-inforamtion .user-data .texts .single-col .user-name,
+.personal-inforamtion .user-data .texts .single-col p.coutch-data,
+.personal-inforamtion .user-data .texts .single-col .programes-rejested,
+.personal-inforamtion .user-data .texts .single-col .last-lesson,
+.personal-inforamtion .user-data .texts .single-col p.Payment-date{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+.personal-inforamtion .user-data .texts .single-col .rejest-date{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.personal-inforamtion .user-data .texts .single-col .date{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.personal-inforamtion .user-data .texts .single-col .coutch-data p.cou-data{
+    font-size: 16px;
+    display: inline-block;
+}
+.personal-inforamtion .user-data .single-col div.coutch-data{
+    background: rgb(255,0,0,0.20);
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 50px;
+    float: right;
+}
+.personal-inforamtion .user-data .texts .single-col div.coutch-data .image{
+    width: 64px;
+    height: 64px;
+    display: block;
+    float: right;
+    border-radius: 50%;
+}
+.personal-inforamtion .user-data .texts .single-col div.coutch-data .text{
+    float: right;
+    width: 60%;
+}
+.personal-inforamtion .user-data .texts .single-col div.coutch-data img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  
+}
+.personal-inforamtion .user-data .texts .single-col div.coutch-data .text{
+    margin-top: 16px;
+    margin-right: 5px;
+}
+.personal-inforamtion .user-data .texts .single-col span{
+    font-size: 12px;
+    display: block;
+}
+
+.personal-inforamtion .user-data .texts .single-col .programes-rejested,
+.personal-inforamtion .user-data .texts .single-col .last-lesson,
+.personal-inforamtion .user-data .texts .single-col p.Payment-date{
+    text-align: right;
+}
+.personal-inforamtion .user-data .texts .single-col .pro-name{
+    padding-right: 15px !important;
+    font-size: 14px;
+}
+.personal-inforamtion .user-data .texts .single-col span.Payment-date{
+    font-size: 11px;
+    font-weight: normal;
+}
+.personal-inforamtion .user-data .texts .single-col .payment-danger{
+    color:#ff0000;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+.personal-inforamtion .user-data .texts .single-col .lesson-img{
+    display: block;
+    width: 144px;
+    height: 73px;
+}
+.personal-inforamtion .user-data .texts .single-col .lessone-name{
+    font-size: 15px;
+    font-weight: normal;
+}
+.personal-inforamtion .user-data .edit-personal-data{
+    position: absolute;
+    top: 6%;
+    left: 2%;
+}
+.personal-inforamtion .user-data .edit-personal-data a span.text{
+    font-size: 13px;
+    color: #333;
+}
+.personal-inforamtion .user-data .edit-personal-data a:hover span.text{
+    font-size: 14px;
+    transition: 0.7s ease-in-out;
+    color:#ff0000;
+}
+/***********************************personal-Page end********************************************/
+/***********************************Tabs Start****************************************************/
+.tabs{
+    background: #F9F9F9;
+}
+.tabs .tabas-section{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 7px -7px rgb(0 8 22 / 53%);
+    box-shadow: 0px 2px 7px -7px rgb(0 8 22 / 53%);
+    padding:20px;
+    border-radius: 10px;
+    
+}
+.tabs .tabas-section .nav-tabs {
+    border-bottom: none;
+}
+.tabs .tabas-section .nav-tabs .nav-item.show .nav-link,
+.tabs .tabas-section .nav-tabs .nav-link.active{
+    border: none;
+    border-radius: 0;
+}
+.tabs .tabas-section .nav-tabs .nav-link.active{
+    background: #ff0000;
+    color: #fff;
+    border-radius: 58px;
+    padding: 8px 26px;
+}
+.tabs .tabas-section .nav-tabs .nav-link{
+    background: #F9F9F9;
+    color: #333;
+    border-radius: 58px;
+    padding: 8px 26px;
+    margin-left: 10px;
+}
+.tabs .tabas-section .nav-tabs .nav-link:hover{
+    border:none;
+    background: #ff0000;
+    color: #fff;
+    transition: 0.5s;
+}
+.tabs .tabas-section  .tab-content{
+    margin-top: 45px;
+}
+.tabs .tabas-section  .tab-content .Tutorials p,
+.tabs .tabas-section  .tab-content .attachments-exercises p,
+.tabs .tabas-section  .tab-content .Your-opinion p,
+.tabs .tabas-section  .tab-content .Subscribe-Register p{
+    color: #999999;
+    font-size: 20px;
+    font-weight:normal;
+    margin-bottom: 20px;
+}
+.tabs .tabas-section  .tab-content .Tutorials .latest-episodes .episodes-col{
+    margin-bottom: 30px;
+}
+.tabs .tabas-section  .tab-content .Tutorials .latest-episodes .episodes-col .episodes-thumbonial{
+    width: 100%;
+    height: 121px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.tabs .tabas-section  .tab-content .Tutorials .latest-episodes .episodes-col .episodes-thumbonial img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.tabs .tabas-section  .tab-content .Tutorials .latest-episodes .episodes-col p,
+.tabs .tabas-section  .tab-content .Tutorials .next-lesson  p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+}
+.tabs .tabas-section  .tab-content .Tutorials .next-lesson span{
+    display: block;
+    color: #999;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+.tabs .tabas-section  .tab-content .Tutorials .next-lesson .episodes-thumbonial{
+    width: 442px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.tabs .tabas-section  .tab-content .Your-opinion p strong{
+    color: #333;
+}
+.tabs .tabas-section  .tab-content .Your-opinion form .form-check{
+    margin-bottom: 20px;
+}
+.tabs .tabas-section  .tab-content .Your-opinion form #Check-opinion{
+     width: 15px;
+     height: 15px;
+}
+.tabs .tabas-section  .tab-content .Your-opinion form .form-check-label{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 13px;
+}
+.tabs .tabas-section  .tab-content .Your-opinion form textarea{
+    width: 820px;
+    height: 190px;
+    resize: none;
+    border:none;
+    background-color: #F9F9F9;
+    padding:20px 15px;
+}
+.tabs .tabas-section  .tab-content .Your-opinion form .btn-primary{
+    background: #FF0000 !important;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    padding: 25px 69px;
+    line-height: 2px;
+    margin-top: 20px;
+    margin-right: 61%;
+    border-radius: 5px;
+}
+.tabs .tabas-section  .tab-content .latest-programs .single-col .col-img{
+    width: 246px;
+    height: 240px;
+    border-radius: 5px;
+}
+
+.tabs .tabas-section  .tab-content .latest-programs .single-col .col-img img{
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+}
+
+.tabs .tabas-section  .tab-content .latest-programs a .single-col .program-name{
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 15px;
+    color: #333;
+}
+/***************************/
+.tabs .tabas-section .table.payment-table{
+    text-align: center;
+}
+
+.tabs .tabas-section .table.payment-table td{
+    border-top: none;
+    border-left: 1px solid #D8D8D8;
+    width: 33.3%;
+    
+}
+.tabs .tabas-section .table.payment-table th{
+    border-top: none;
+    border:none;
+    font-size: 18px;
+    font-weight: normal;
+}
+.tabs .tabas-section .table.payment-table td:last-child{
+    border:none
+}
+.tabs .tabas-section .table.payment-table th.previous-payments{
+    color: #ff0000;
+    background: rgb(255,0,0,0.20);
+}
+.tabs .tabas-section .table.payment-table th.Term-Payments{
+    color: #27CC8A;
+    background: rgb(39,204,138,0.20);
+}
+.tabs .tabas-section .table.payment-table th.late-payments{
+    color: #333;
+    background: rgb(51,51,51,0.20);
+}
+.tabs .tabas-section .table.payment-table td p{
+    width: 80%;
+    margin:5px auto;
+    background: rgb(51,51,51,0.16);
+    padding:25px 0;
+    text-align: center;
+}
+/*****************attachments-exercises************************/
+.tabs .tabas-section  .tab-content .attachments-exercises .attachment-files .file{
+   width: 85px;
+   height: 120px;
+   margin-left: 40px;
+   margin-bottom: 15px;
+}
+.tabs .tabas-section  .tab-content .attachments-exercises .attachment-files .file img{
+    width:90%;
+    height: 85px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+.tabs .tabas-section  .tab-content .attachments-exercises .attachment-files .file span{
+    display: block;
+    text-align: center;
+}
+.tabs .tabas-section  .tab-content .attachments-exercises .attachment-files{
+    margin-top: 40px;
+}
+/*****************attachments-exercises End***********************/
+/************************************Tabs End*****************************************************/
+/******************************Model (edit personal data)*******************************/
+.modal.edit-data .modal-dialog{
+    max-width: 750px;
+    margin: 1.5rem auto;
+    margin-top: 80px;
+   /* padding:80px 0;*/
+
+}
+.modal.edit-data .modal-dialog .modal-body h5.modal-title{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.modal.edit-data .modal-dialog .modal-body p.pragraph-title{
+    display: block;
+    text-align: center;
+    width:40%;
+    margin:10px auto;
+    font-size: 15px;
+    color: #999999;
+}
+.modal.edit-data .modal-dialog .modal-body .model-body-content .col-img{
+    display: block;
+    height: 184px;
+    width: 184px;
+    border-radius: 50%;
+    margin: 15px auto 30px;
+    position: relative;
+}
+.modal.edit-data .modal-body .model-body-content .col-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.modal.edit-data .modal-body .model-body-content .col-img .overlay{
+    background-color: rgb(0,0,0,0.20);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 184px;
+    display: none;
+}
+.modal.edit-data .modal-body .model-body-content .col-img:hover .overlay{
+    display: block;
+    transition: 0.7s ease-in-out;
+}
+.modal.edit-data .modal-body .model-body-content .singl-col .edit-link{
+    display: block;
+    margin:0 auto;
+    color:#333;
+    text-align: center;
+}
+.modal.edit-data .modal-body .model-body-content .singl-col .edit-link:hover{
+    color: #ff0000;
+    transition: 0.7s ease-in-out;
+   
+}
+.modal.edit-data .modal-body .model-body-content .singl-col{
+    border-left: 1px solid #D8D8D8;
+}
+
+.modal.edit-data .modal-body .model-body-content .form-col .btn-primary{
+    background: #FF0000 !important;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+    border: none !important;
+    padding: 20px 60px;
+    line-height: 0px;
+    float: left;
+}
+.modal.edit-data .modal-body .model-body-content .form-col .btn-primary:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out;
+
+}
+.modal.edit-data .modal-body .model-body-content .change-password{
+    display: block;
+    text-align: center;
+    color:#0090FF;
+    margin:20px 0;
+}
+
+
+
+/**********************************Couch Page**************************************/
+.personal-inforamtion.couch-page .Coach-details{
+    border-left: 1px solid #D8D8D8;
+}
+.personal-inforamtion.couch-page .user-name{
+ font-size: 17px;
+ font-weight: 600;
+ margin-right: 18px;
+ margin-top: 10px;
+}
+.personal-inforamtion.couch-page .rejest-date{
+    font-size: 14px;
+    margin-right: 35px;
+}
+.personal-inforamtion.couch-page .couch-stars{
+    margin-right: 20px;
+}
+
+.personal-inforamtion.couch-page .couch-information{
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5;
+    padding-top: 10px;
+
+}
+.personal-inforamtion.couch-page .call-couch{
+    display: block;
+    background-color: #ff0000;
+    color: #fff;
+    width: 80%;
+    margin:10px auto 0;
+    border-radius: 5px;
+    text-align: center;
+    padding:15px 0;
+}
+.personal-inforamtion.couch-page .call-couch:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out;
+
+}
+.tab-content .Subscribers-opinions{
+    margin-top: 35px;
+}
+.tab-content .Subscribers-opinions .single-col .Subscriber-img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border:2px solid #707070;
+    margin: 0 auto;
+}
+.tab-content .Subscribers-opinions .single-col .Subscriber-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+} 
+.tab-content .Subscribers-opinions .single-col .Subscriber-name{
+    font-size:16px;
+    color:#333;
+}
+.tab-content .Subscribers-opinions .single-col p.Subscriber-opinions{
+ color: 000;
+ font-size: 16px;
+ font-weight: normal;
+}
+
+
+/******************************************courses-page Start**********************************/
+.navbar-nav .nav-link.active{
+    color: #fff;
+}
+.courses-page .navbar-nav .nav-link.active{
+    color: #FF0000;
+    font-weight: bold;
+    border-bottom: 2px solid #ff0000;
+}
+.courses-page .index-carousal,
+.courses-page #carouselExampleIndicators.index-carousal .carousel-inner{
+    height: 694px;
+}
+.all-courses .page-title{
+    text-align: center;
+    padding: 65px 0;
+    color: #333;
+}
+.all-courses .page-title p{
+    font-size: 25px;
+    font-weight: normal;
+}
+.all-courses .page-title h3{
+    width: 70%;
+    font-size: 30px;
+    margin:15px auto;
+    line-height: 1.5;
+    font-weight: bold;
+    position: relative;
+}
+.all-courses .page-title h3::after{
+    position: absolute;
+    content: "";
+    width: 114px;
+    height: 2px;
+    background-color: #ff0000;
+    right: 40%;
+    bottom: -25%;
+}
+.all-courses .tabs.course-displying{
+    background: none;
+}
+.all-courses .tabs .tabas-section .nav-tabs .nav-link.active{
+    background: none;
+    color: #ff0000;
+    opacity: 0.8;
+}
+.all-courses .tabs .tabas-section .nav-tabs .nav-link{
+    padding: 0;
+    margin-right: 0px;
+    font-size: 30px;
+    background: none;
+}
+.all-courses .tabs .tabas-section .nav-tabs .nav-link:hover {
+    border: none;
+    background: none;
+    color: #ff0000;
+    transition: 0.5s;
+}
+.all-courses .tabs .tabas-section .nav-tabs .nav-item p{
+    font-size: 25px;
+    font-weight: normal;
+    padding-left: 15px;
+}
+.all-courses .my-courses .course-col{
+    height: 575px;
+    margin-bottom: 30px;
+}
+.all-courses .my-courses .course-col .img{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.all-courses .my-courses .course-col .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.all-courses .my-courses .course-col .course-deatails .course-name{
+    font-size: 18px;
+    text-align: center;
+}
+.all-courses .my-courses .course-col .course-deatails p{
+    font-size: 13px;
+    text-align: center;
+}
+.all-courses .my-courses .course-col .course-deatails span{
+    display: inline-block;
+    padding-bottom: 0 !important;
+}
+.all-courses .my-courses .course-col .course-deatails a.subsicripe{
+    display: block;
+    width: 100%;
+    background: rgb(255,0,0,0.20);
+    color: #ff0000;
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.all-courses .my-courses .course-col .course-deatails a.subsicripe:hover{
+    color: #fff;
+    background: #ff0000;
+}
+.all-courses .my-courses .course-col .course-deatails span.date {
+    color: #999999;
+    font-size: 15px;
+    padding-top: 30px;
+}
+.all-courses .my-courses .course-col .course-deatails span.price strong{
+    color: #ff0000;
+    font-size: 40px;
+}
+.all-courses .my-courses .course-col .course-deatails span.price{
+    color: #999;
+}
+.all-courses .my-courses .section-title{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.my-courses.Suggested-programs{
+    margin-top: 40px;
+}
+/***********Course list************/
+.tabs .course-list .single-row{
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 20px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.tabs .course-list .single-row .course-image{
+    width: 156px;
+    height: 124px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.tabs .course-list .single-row .course-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.tabs .course-list .single-row .course-details{
+    width: 60%;
+    color: #333;
+}
+.tabs .course-list .single-row .course-details h4.course-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.tabs .course-list .single-row .course-details{
+    font-size: 13px;
+}
+.tabs .course-list .single-row .course-details span{
+    color: #999;
+    font-size: 15px;
+    display: block;
+    margin-top: 35px;
+}
+.tabs .course-list .single-row .course-price{
+    margin-left: 30px;
+}
+.tabs .course-list .single-row .course-price strong{
+    color: #FF0000;
+    font-size: 30px;
+}
+.tabs .course-list .single-row .course-price span{
+    color: #999;
+    font-size: 15px;
+}
+.tabs .course-list .single-row .subscribe-course a{
+    display: inline-block;
+    color: #ff0000;
+    background-color: rgb(255,0,0,0.20);
+    padding: 10px 45px;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+.tabs .course-list .single-row .subscribe-course a:hover{
+    color: #fff;
+    background: #ff0000;
+}
+/******************************************courses-page End**********************************/
+/*****************************************course-page3 Start*********************************/
+.courses-page.course-page3 .index-carousal,
+.courses-page.course-page3 #carouselExampleIndicators.index-carousal .carousel-inner{
+    height:1000px;
+}
+.index-carousal .carousel-inner p.carousal-pargraph{
+  font-size: 14px;
+  width: 80%;
+  margin:0 auto 40px;
+  line-height:2;
+}
+.courses-page.course-page3 .index-carousal .carousel-caption{
+    bottom: 15% !important;
+}
+.page3-content{
+    background: #F9F9F9;
+    padding:30px 0 100px 0;
+}
+.page3-content .Program-lessons,
+.page3-content .Program-trainers{
+    background: #fff;
+    box-shadow: 0px 2px 7px -7px rgb(0 8 22 / 53%);
+    border-radius: 5px;
+    padding:50px;
+    margin-bottom: 40px;
+}
+.page3-content .Program-lessons h4.programLesson{
+    font-size: 30px;
+    color: #333;
+}
+.page3-content .Program-lessons h4.programLesson span{
+    font-size: 20px;
+    color: #999999;
+}
+.page3-content .Program-lessons .episodes{
+    margin-bottom: 40px;
+}
+.page3-content .Program-lessons .episodes .episodes-image{
+    width: 20%;
+    height: 120px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+.page3-content .Program-lessons .episodes .episodes-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.page3-content .Program-lessons .episodes .episodes-text{
+width: 75%;
+color: #333;
+}
+.page3-content .Program-lessons .episodes .episodes-text h6.course-title{
+    font-size: 25px;
+    margin-top: 5px;
+  
+}
+.page3-content .Program-lessons .episodes .episodes-text p.course-description{
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 2;
+
+}
+.page3-content .Program-lessons a.more{
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 2px 18px;
+}
+.page3-content .Program-lessons a.more:hover{
+    background: #FF0000;
+    color: #fff;
+    border-color: #FF0000;
+}
+.Program-lessons.Program-trainers .single-col .trainers-image{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+.Program-lessons.Program-trainers .single-col .trainers-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.Program-lessons.Program-trainers .single-col .trainer-data{
+    text-align: center;
+}
+.Program-lessons.Program-trainers .single-col .trainer-data h6.trainer-name{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+  /*****************************************course-page3 End***********************************/

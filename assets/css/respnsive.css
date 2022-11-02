@@ -1,0 +1,1064 @@
+/***********************************mobile*******************************/
+@media (min-width: 300px) and (max-width: 766.5px){
+   html{
+    overflow-x: hidden;
+   }
+   .navbar-light.bg-light{
+    margin-right: 0;
+    padding: 0;
+   }
+   .navbar-toggler{
+     background-color: rgba(255, 255, 255, 0.5);
+     border:1px solid #fff !important;
+   }
+   .navbar-light .navbar-toggler{
+    margin-top: 19px;
+    margin-right: 5px;
+   }
+   .navbar-light .navbar-toggler:hover{
+    background-color:#fff;
+   }
+   .navbar .navbar-brand {
+    width: 76px;
+    height: 54px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.navbar .navbar-nav{
+    margin-left: 0;
+    margin-right: -30px;
+}
+.navbar-collapse{
+    background-color: #333;
+}
+.navbar .nav-item .nav-link{
+    color: #fff;
+}
+.navbar .form-inline .members-place{
+    border: none;
+    color: #fff;
+    background: transparent
+}
+.navbar .form-inline .members-place svg path{
+    fill:#fff;
+}
+.index-carousal{
+    height: 470px;  
+}
+#carouselExampleIndicators.index-carousal .carousel-inner{
+    height: 470px;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+}
+.index-carousal .carousel-caption{
+    bottom: 0 !important;
+    top: 30%;
+}
+.index-carousal .carousel-caption h5{
+    font-size: 14px;
+}
+.index-carousal .carousel-caption h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.index-carousal .carousel-caption p {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+.index-carousal .carousel-caption a{
+    width: 160px;
+    height: 45px;
+    line-height: 42px;
+}
+.about-us .about-text{
+    position: relative;
+    left: 0;
+    top: 0;
+    height: auto;
+    margin-bottom: 25px;
+}
+.about-us .about-text h3{
+    font-size: 20px;
+    
+}
+.about-us .about-text p {
+    font-size: 12px;
+    text-align: justify;
+    line-height: 2;
+    margin-top: 15px;
+}
+.about-us .about-img{
+    height: 300px
+}
+.about-us{
+    padding: 60px 0;
+}
+.Our-trainer h3{
+    width: 100%;
+    font-size: 18px;
+    font-weight: normal;
+}
+.Our-trainer p{
+    margin-bottom: 15px;
+}
+.Our-trainer h3::after{
+    right: 33%;
+    bottom: -11%;
+    width: 130px;
+}
+.main-reviewimage{
+    height: 250px;
+    width: 250px;
+}
+.custome_slide.owl-carousel .active.center .testimonial_detail{
+    width: 100%;
+    left: 0;
+}
+.custome_slide.owl-carousel .active.center .testimonial_detail p{
+    font-size: 14px;
+}
+.event-details .event-details-content h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.event-details .event-details-content ul li .text {
+    font-size: 12px;
+}
+#countdown ul{
+    padding-right: 2px!important;
+}
+#countdown li{
+    margin-left: 10px;
+    width: 84px;
+    height: 84px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+#countdown li span{
+    font-size: 17px;
+}
+.event-details .Register-now{
+    height: 70px;
+    line-height: 70px;
+    width: 279.54px;
+}
+.event-details{
+    height: 535px;
+}
+.Our-trainer{
+    padding-top: 50px;
+}
+.Our-trainer.our-program .latest-programs {
+    margin-top: 40px;
+}
+.Our-trainer.our-program{
+    padding-bottom: 55px;
+}
+.price .program-price {
+    margin-top: 45px;
+}
+.price .program-price .single-col .cource-desciption{
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+.price .program-price .single-col{
+    height: 366px;
+    margin-bottom: 20px;
+}
+.price {
+    padding-bottom: 40px;
+}
+.footer .sing-col.midle-col{
+    border:none;
+    margin-top: 25px;
+}
+.footer .sing-col .social-links{
+    padding-top: 0;
+}
+#button{
+    right: 8px;
+}
+.footer .single-col .our-name{
+    margin-top: 0;
+}
+.footer .single-col .footer-logo{
+    width: 120px;
+    height: 87px;
+    margin-right: 85px;
+}
+/***********************************************************************************/
+.navbar .form-inline .user-name{
+    color: #333;
+}
+.navbar .form-inline .user-name img{
+    display: none;
+}
+.navbar .form-inline .user-name{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    color: #ff0000;
+}
+.navbar .form-inline .sign-out{
+    margin-right: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+.navbar .form-inline .sign-out svg path{
+    fill:#ff0000;
+}
+.Our-trainer .trainer-inforamtion .trainer-img{
+    height: 414px;
+}
+.Our-trainer .trainer-inforamtion .trainer-description p{
+    text-align: justify;
+    line-height: 1.5;
+}
+.Our-trainer .trainer-inforamtion .trainer-description h4,
+.Our-trainer .trainer-inforamtion .trainer-description .stars{
+    text-align: center;
+}
+.Our-trainer .trainer-inforamtion .trainer-description .call{
+    margin:0 auto;
+}
+
+.footer .sing-col .page-links li{
+    text-align: right;
+}
+/********************************************************************************/
+.new-registration .new-user .form-registration{
+    padding: 45px 20px 38px 20px;
+}
+.new-registration .new-user .form-registration .form-col form .form-check-label{
+    font-size: 15px;
+    display: block;
+}
+.new-registration .new-user .form-registration .form-col form .btn-primary{
+    display: block;
+    float: none;
+    margin: 25px auto;
+}
+.new-registration .new-user .form-registration .form-image.new-registration-image {
+    width: 310px;
+    height: auto;
+}
+.new-registration .new-user .form-registration .form-image.privacypolicy {
+    width: 285px;
+    height: auto;
+    margin: 20px auto 0;
+}
+.new-registration .new-user .form-registration .form-image.members-area {
+    width: 297.36px;
+    height: auto;
+}
+.new-registration .new-user .form-registration .form-image.members-area {
+    width: 297.36px;
+    height: auto;
+}
+.new-registration .new-user .form-registration .form-image.forget-password {
+    width: 298.14px;
+    height: auto;
+    margin-top: 15px;
+}
+.new-registration .new-user .form-registration .form-image.reset-password {
+    width: 295.47px;
+    height: auto;
+    margin: 10px auto 0;
+}
+.new-registration .header{
+    padding:10px 0;
+    padding-top: 0;
+}
+/**********************************Personal Page*******************************/
+.personal-inforamtion{
+    height: 470px;
+}
+.personality-page .header-background{
+    height: 200px;
+}
+.personality-page .header-background h2{
+    line-height: 136px;
+    font-size: 25px;
+}
+.personal-inforamtion .user-data{
+    top: -12%;
+    bottom: 0;
+    width: 90%
+}
+.personal-inforamtion .user-data .user-image{
+    width: 110px;
+    height: 110px;
+    top: -56px;
+    right: 20px;
+}
+.personal-inforamtion .user-data .edit-personal-data{
+    top: 4%;
+    left: 3%;
+}
+.personal-inforamtion .user-data .edit-personal-data a span.text{
+    font-size: 10px;
+}
+.personal-inforamtion .user-data .texts .single-col{
+    width: 43%;
+    margin-bottom: 25px;
+}
+.personal-inforamtion .user-data .texts .single-col:nth-child(2),
+.personal-inforamtion .user-data .texts .single-col:nth-child(4){
+    border-left: 0;
+}
+.personal-inforamtion .user-data .texts .single-col .user-name,
+.personal-inforamtion .user-data .texts .single-col p.coutch-data,
+.personal-inforamtion .user-data .texts .single-col .programes-rejested,
+.personal-inforamtion .user-data .texts .single-col .last-lesson,
+.personal-inforamtion .user-data .texts .single-col p.Payment-date{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.personal-inforamtion .user-data .texts .single-col .rejest-date{
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.personal-inforamtion .user-data .texts .single-col .date{
+    font-size: 15px;
+}
+.personal-inforamtion .user-data .single-col div.coutch-data{
+    width: 165px;
+    margin-right: -15px;
+}
+.personal-inforamtion .user-data .texts .single-col div.coutch-data .image{
+    width: 55px;
+    height: 55px;
+}
+.personal-inforamtion .user-data .texts .single-col div.coutch-data .text{
+    margin-top: 10px;
+}
+.personal-inforamtion .user-data .texts .single-col{
+    height: 110px;
+}
+.personal-inforamtion .user-data .texts .single-col .pro-name{
+    font-size: 12px;
+}
+.personal-inforamtion .user-data .texts .single-col .pro-name li{
+    line-height: 2;
+}
+.personal-inforamtion .user-data .texts .single-col .payment-danger{
+    font-size: 16px;
+    margin-top: 3px;
+}
+.personal-inforamtion .user-data .texts .single-col .lesson-img{
+    width: 112px;
+    height: 56px;
+    margin-bottom: 10px;
+}
+.personal-inforamtion .user-data .texts .single-col.last-col{
+    border-left: 1px solid #D8D8D8;
+}
+.personal-inforamtion .user-data .texts .single-col .lessone-name{
+    font-size: 12px;
+}
+.personal-inforamtion .user-data{
+    padding: 95px 10px 20px 20px;
+}
+/**********/
+.tabs{
+    padding-top: 25px;
+}
+.tabs .tabas-section{
+    padding: 20px 5px;
+}
+.tabs .tabas-section .nav-tabs{
+    padding-right: 5px;
+}
+.nav-tabs .nav-item{
+    margin-bottom: 10px;
+}
+.tabs .tabas-section .nav-tabs .nav-link{
+    padding: 6px 8px;
+    margin-left: 5px;
+    font-size: 13px;
+
+}
+.tabs .tabas-section .tab-content {
+    margin-top: 30px;
+}
+.tabs .tabas-section .tab-content .Tutorials p,
+.tabs .tabas-section .tab-content .attachments-exercises p,
+.tabs .tabas-section .tab-content .Your-opinion p,
+.tabs .tabas-section .tab-content .Subscribe-Register p{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.tabs .tabas-section .tab-content .Tutorials .latest-episodes .episodes-col .episodes-thumbonial{
+    height: 95px;
+    margin-bottom: 7px;
+}
+.tabs .tabas-section .tab-content .Tutorials .latest-episodes .episodes-col .episodes-thumbonial img{
+    width: 100%;
+    height: 100%;
+}
+.tabs .tabas-section .tab-content .Tutorials .latest-episodes .episodes-col p{
+    font-size: 12px;
+    text-align: center;
+}
+.tabs .tabas-section .tab-content .Tutorials .next-lesson .episodes-thumbonial{
+    width: 100%;
+    height: 180px;
+}
+.tabs .tabas-section .tab-content .Tutorials .next-lesson p{
+    text-align: center;
+    font-size: 15px;
+}
+.tabs .tabas-section .tab-content .Your-opinion form textarea{
+    width: 100%;
+}
+.tabs .tabas-section .tab-content .Your-opinion form .btn-primary{
+    padding: 25px 50px;
+    margin-top: 14px;
+    margin-right: 61%;
+}
+.tabs .tabas-section .tab-content .latest-programs .single-col .col-img{
+    width: 100%;
+    height: 265px;
+}
+.tabs .tabas-section .tab-content .latest-programs a .single-col .program-name{
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+.tabs .tabas-section .table.payment-table th{
+    font-size: 13px;
+}
+.tabs .tabas-section .table.payment-table td p{
+    font-size: 12px;
+    padding: 10px 0;
+    width: 90%;
+    margin: 0px auto;
+}
+/***********************************Coach page****************************************/
+.personal-inforamtion.couch-page .Coach-details{
+    border-left: 0;
+}
+.personal-inforamtion.couch-page .couch-information{
+    font-size: 13px;
+}
+.personal-inforamtion.couch-page .call-couch{
+    width: 60%;
+    margin-top: 20px;
+}
+.tab-content .Subscribers-opinions .single-col .Subscriber-img{
+    height: 50px;
+    width: 50px;
+}
+.tabs .tabas-section .tab-content .Your-opinion p{
+    font-size: 14px;
+    text-align: justify;
+}
+.personal-inforamtion.couch-page{
+    height: 450px;
+}
+/***************************Courses Page**********************************/
+.courses-page .index-carousal, .courses-page #carouselExampleIndicators.index-carousal .carousel-inner {
+    height: 300px;
+}
+.all-courses .page-title h3{
+    width: 100%;
+    font-size: 16px;
+}
+.all-courses .page-title h3::after{
+    right: 38%;
+    bottom: -33%;
+    width: 100px;
+}
+.all-courses .page-title{
+    padding-bottom:0px;
+}
+.all-courses .my-courses .course-col .img{
+    height: 200px;
+    margin-bottom: 15px;
+}
+.all-courses .my-courses .course-col .course-deatails .course-name{
+    font-size: 16px;
+}
+.all-courses .my-courses .course-col .course-deatails p{
+    font-size: 12px;
+}
+.all-courses .my-courses .course-col .course-deatails span.date{
+    padding-top: 20px;
+}
+.all-courses .my-courses .course-col .course-deatails span.price strong{
+    font-size: 35px;
+}
+.all-courses .my-courses .course-col .course-deatails a.subsicripe{
+    margin-top: 13px;
+}
+.all-courses .my-courses .course-col {
+    height: 467px;
+    margin-bottom: 20px;
+}
+.courses-page .navbar-nav .nav-link.active{
+    border-bottom: none;
+}
+/************************************************/
+.all-courses .my-courses .course-col .course-deatails span.price.tab-price strong{
+    font-size: 20px;
+}
+.all-courses .my-courses .course-col .course-deatails span.date.date2{
+    padding-top: 5px;
+}
+.tabs .course-list .single-row .course-image{
+    width: 100px;
+    height: 70px;
+    margin-left: 10px;
+}
+.tabs .course-list .single-row .course-details{
+    width: 65%;
+}
+.tabs .course-list .single-row .course-details h4.course-name{
+    font-size: 14px;
+}
+.tabs .course-list .single-row{
+    height: 222px;
+}
+.tabs .course-list .single-row .course-details span{
+    margin-top: 0px
+}
+}
+
+
+/**********************************************ibad********************************/
+@media(min-width:768px) and (max-width:1024px){
+    html{
+        overflow-x: hidden;
+       }
+       .navbar-toggler{
+        background-color: rgba(255, 255, 255, 0.5);
+        border:1px solid #fff !important;
+        margin-top: 19px;
+        margin-right: 30px;
+      }
+      .navbar-light.bg-light{
+        margin-right: 0;
+        padding: 0;
+      }
+      .navbar .navbar-brand {
+       width: 76px;
+       height: 54px;
+       margin-left: 20px;
+    margin-top: 15px;
+   }
+   .navbar .navbar-nav{
+       margin-left: 0;
+       margin-right: -30px;
+   }
+   .navbar-collapse{
+       background-color: #333;
+       padding-right: 10px;
+   }
+   .navbar .nav-item .nav-link{
+       color: #fff;
+   }
+   .navbar .form-inline .members-place{
+       border: none;
+       color: #fff;
+       background: transparent
+   }
+   .navbar .form-inline .members-place svg path{
+       fill:#fff;
+   }
+   .index-carousal{
+    height: 700px;  
+}
+#carouselExampleIndicators.index-carousal .carousel-inner{
+    height: 700px; 
+}
+.index-carousal .carousel-caption {
+    bottom: 25% !important;
+}
+.index-carousal .carousel-caption h1 {
+    font-size: 61px;
+    margin-bottom: 20px;
+}
+.index-carousal .carousel-caption p {
+    font-size: 35px;
+    margin-bottom: 55px;
+}
+.about-us .about-text h3{
+    font-size: 16px;
+}
+.about-us .about-text p{
+    font-size: 13px;
+    overflow-y: hidden;
+}
+.about-us,
+.Our-trainer{
+    padding: 60px 0;
+}
+.Our-trainer{
+    padding-bottom: 0;
+}
+.Our-trainer h3{
+    font-size: 18px;
+    width: 90%;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.Our-trainer p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.event-details .event-details-content h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+.event-details .event-details-content ul li .text {
+    font-size: 15px;
+}
+#countdown li{
+    width: 135px;
+    height: 135px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.event-details .Register-now{
+    height: 75px;
+    line-height: 75px;
+    margin-top: 33px;
+}
+.event-details{
+    height: 570px;
+}
+.Our-trainer.our-program .latest-programs .single-col{
+    margin-bottom: 25px;
+}
+.Our-trainer.our-program{
+    padding-bottom: 60px;
+}
+.price .program-price {
+    margin-top: 60px;
+}
+.price .program-price .single-col{
+    margin-bottom: 25px;
+    height: 360px;
+}
+.price .program-price .single-col .cource-desciption {
+  
+    font-size: 14px;
+    margin-top: 17px;
+    margin-bottom: 32px;
+}
+.footer .top-footer .page-links{
+    padding-right: 0 !important;
+}
+.footer .sing-col .page-links li{
+    font-size: 12px;
+}
+.footer .sing-col .social-links li{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+}
+.footer .single-col .our-name{
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
+.footer .single-col .footer-logo {
+    width: 100px;
+    height: 74px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.footer .sing-col .social-links{
+    padding-right: 0 !important;
+}
+.custome_slide.owl-carousel .owl-nav button.owl-prev {
+    right: -21px;
+    top: 322px;
+}
+.custome_slide.owl-carousel .owl-nav button.owl-next{
+    left: -21px;
+    top: 322px;
+}
+.Our-trainer .trainer-inforamtion {
+    padding: 0px 0 20px 0;
+}
+.Our-trainer .trainer-inforamtion .trainer-description p{
+    font-size: 14px;
+    text-align: justify;
+}
+.Our-trainer .trainer-inforamtion .trainer-description h4{
+    font-size: 18px;
+}
+.Our-trainer .trainer-inforamtion .trainer-description .call{
+    width: 157px;
+    height: 50px;
+    line-height: 50px;
+}
+.new-registration .new-user .form-registration{
+    padding: 45px 20px 38px 20px;
+}
+.new-registration .new-user .form-registration .form-col form .form-check-label{
+    font-size: 15px;
+    display: block;
+}
+.new-registration .new-user .form-registration .form-col form .btn-primary{
+    display: block;
+    float: none;
+    margin: 25px auto;
+}
+.new-registration .new-user .form-registration .form-image.new-registration-image {
+    width: 310px;
+    height: auto;
+    margin-top: 50px;
+}
+.new-registration .new-user .form-registration .form-col form .form-check{
+    padding-left: 0;
+}
+.new-registration .new-user .form-registration .form-col p{
+    font-size: 13px;
+}
+.new-registration .new-user .form-registration .form-col h2{
+    font-size: 22px;
+}
+.new-registration .new-user .form-registration .form-image.privacypolicy {
+    width: 313px;
+    height: auto;
+    margin-top: 20%;
+}
+.new-registration .new-user .form-registration .form-image.members-area {
+    width: 285.36px;
+    height: auto;
+    margin-top: 15%;
+}
+.new-registration .new-user .form-registration .form-image.forget-password {
+    width: 280.14px;
+    height: auto;
+}
+.new-registration .new-user .form-registration .form-image.reset-password {
+    width: 303.47px;
+    height: auto;
+    margin: 10px auto;
+}
+.navbar .form-inline .user-name{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    color: #ff0000;
+    padding-right: 5px;
+}
+.navbar .form-inline .user-name img{
+    display: none;
+}
+.navbar .form-inline .sign-out {
+    margin-right: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+.navbar .form-inline .sign-out svg path{
+    fill:#ff0000;
+}
+.new-registration .header{
+    padding:10px 0;
+    padding-top: 0;
+}
+
+
+/**********************************Personal Page*******************************/
+.personal-inforamtion{
+    height: 400px;
+}
+.personality-page .header-background{
+    height: 200px;
+}
+.personality-page .header-background h2{
+    line-height: 136px;
+    font-size: 25px;
+}
+.personal-inforamtion .user-data{
+    top: -12%;
+    bottom: 0;
+    width: 90%
+}
+.personal-inforamtion .user-data .user-image{
+    width: 110px;
+    height: 110px;
+    top: -56px;
+    right: 20px;
+}
+.personal-inforamtion .user-data .edit-personal-data{
+    top: 4%;
+    left: 3%;
+}
+.personal-inforamtion .user-data .edit-personal-data a span.text{
+    font-size: 10px;
+}
+.personal-inforamtion .user-data .texts .single-col{
+    width: 30%;
+    margin-bottom: 25px;
+}
+.personal-inforamtion .user-data .texts .single-col:nth-child(3),
+.personal-inforamtion .user-data .texts .single-col:nth-child(5){
+    border-left: 0;
+}
+.personal-inforamtion .user-data .texts .single-col .user-name,
+.personal-inforamtion .user-data .texts .single-col p.coutch-data,
+.personal-inforamtion .user-data .texts .single-col .programes-rejested,
+.personal-inforamtion .user-data .texts .single-col .last-lesson,
+.personal-inforamtion .user-data .texts .single-col p.Payment-date{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+/*
+.personal-inforamtion .user-data .texts .single-col p.coutch-data{
+    text-align: right;
+}
+*/
+
+.personal-inforamtion .user-data .texts .single-col .rejest-date{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.personal-inforamtion .user-data .texts .single-col .date{
+    font-size: 15px;
+}
+.personal-inforamtion .user-data .single-col div.coutch-data{
+    width: 200px;
+    margin-right: -15px;
+}
+.personal-inforamtion .user-data .texts .single-col div.coutch-data .image{
+    width: 65px;
+    height: 65px;
+}
+.personal-inforamtion .user-data .texts .single-col div.coutch-data .text{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.personal-inforamtion .user-data .texts .single-col{
+    height: 140px;
+}
+.personal-inforamtion .user-data .texts .single-col .pro-name{
+    font-size: 12px;
+}
+.personal-inforamtion .user-data .texts .single-col .pro-name li{
+    line-height: 2;
+}
+.personal-inforamtion .user-data .texts .single-col .payment-danger{
+    font-size: 16px;
+    margin-top: 3px;
+}
+.personal-inforamtion .user-data .texts .single-col .lesson-img{
+    width: 90%;
+    height: 70px;
+    margin-bottom: 7px;
+}
+.personal-inforamtion .user-data .texts .single-col.last-col{
+    border-left: 1px solid #D8D8D8;
+}
+.personal-inforamtion .user-data .texts .single-col .lessone-name{
+    font-size: 12px;
+}
+.personal-inforamtion .user-data{
+    padding: 95px 10px 20px 20px;
+}
+/**********/
+.tabs{
+    padding-top: 25px;
+}
+.tabs .tabas-section{
+    padding: 20px 5px;
+}
+.tabs .tabas-section .nav-tabs{
+    padding-right: 5px;
+}
+.nav-tabs .nav-item{
+    margin-bottom: 10px;
+}
+.tabs .tabas-section .nav-tabs .nav-link{
+    padding: 6px 8px;
+    margin-left: 5px;
+    font-size: 13px;
+
+}
+.tabs .tabas-section .tab-content {
+    margin-top: 30px;
+}
+.tabs .tabas-section .tab-content .Tutorials p,
+.tabs .tabas-section .tab-content .attachments-exercises p,
+.tabs .tabas-section .tab-content .Your-opinion p,
+.tabs .tabas-section .tab-content .Subscribe-Register p{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.tabs .tabas-section .tab-content .Tutorials .latest-episodes .episodes-col .episodes-thumbonial{
+    height: 95px;
+    margin-bottom: 7px;
+}
+.tabs .tabas-section .tab-content .Tutorials .latest-episodes .episodes-col .episodes-thumbonial img{
+    width: 100%;
+    height: 100%;
+}
+.tabs .tabas-section .tab-content .Tutorials .latest-episodes .episodes-col p{
+    font-size: 12px;
+    text-align: center;
+}
+.tabs .tabas-section .tab-content .Tutorials .next-lesson .episodes-thumbonial{
+    width: 100%;
+    height: 150px;
+}
+.tabs .tabas-section .tab-content .Tutorials .next-lesson p{
+    text-align: center;
+    font-size: 15px;
+}
+.tabs .tabas-section .tab-content .Your-opinion form textarea{
+    width: 100%;
+}
+.tabs .tabas-section .tab-content .Your-opinion form .btn-primary{
+    padding: 25px 50px;
+    margin-top: 14px;
+    margin-right: 61%;
+}
+.tabs .tabas-section .tab-content .latest-programs .single-col .col-img{
+    width: 100%;
+    height: 265px;
+}
+.tabs .tabas-section .tab-content .latest-programs a .single-col .program-name{
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+.tabs .tabas-section .table.payment-table th{
+    font-size: 13px;
+}
+.tabs .tabas-section .table.payment-table td p{
+    font-size: 12px;
+    padding: 10px 0;
+    width: 90%;
+    margin: 0px auto;
+}
+/***********************************Coach page****************************************/
+.personal-inforamtion.couch-page .Coach-details{
+    border-left: 0;
+}
+.personal-inforamtion.couch-page .couch-information{
+    font-size: 12px;
+    text-align: justify;
+}
+.personal-inforamtion.couch-page .call-couch{
+    width: 95%;
+    margin-top: 11px;
+}
+.tab-content .Subscribers-opinions .single-col .Subscriber-img{
+    height: 50px;
+    width: 50px;
+}
+.tabs .tabas-section .tab-content .Your-opinion p{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.personal-inforamtion.couch-page .user-name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 14px;
+    margin-top: 0px;
+}
+.personal-inforamtion.couch-page .rejest-date{
+    margin-right: 25px;
+}
+.personal-inforamtion.couch-page .couch-stars {
+    margin-right: 5px;
+}
+.personal-inforamtion.couch-page{
+    height: 260px;
+}
+.courses-page .index-carousal,
+.courses-page #carouselExampleIndicators.index-carousal .carousel-inner {
+    height: 500px;
+}
+.all-courses .page-title h3{
+    width: 90%;
+    font-size: 20px;
+}
+.all-courses .page-title h3::after{
+    width: 104px;
+    right: 41%;
+}
+.all-courses .page-title{
+    padding-bottom: 30px;
+}
+.all-courses .my-courses .course-col .img{
+    height: 230px;
+    margin-bottom: 15px;
+}
+.courses-page .navbar-nav .nav-link.active{
+    border-bottom: none;
+}
+.all-courses .my-courses .course-col .course-deatails .course-name{
+    font-size: 14px;
+    font-weight: bold;
+}
+.all-courses .my-courses .course-col .course-deatails p{
+    font-size: 11px;
+}
+.all-courses .my-courses .course-col .course-deatails span.date{
+    font-size: 12px;
+    padding-top: 18px;
+}
+.all-courses .my-courses .course-col .course-deatails span.price strong{
+    font-size: 30px;
+}
+.all-courses .my-courses .course-col .course-deatails span.price{
+    font-size: 12px;
+}
+.all-courses .my-courses .course-col .course-deatails a.subsicripe{
+    margin-top: 10px;
+}
+.all-courses .my-courses .course-col {
+    height: 462px;
+    margin-bottom: 10px;
+}
+}
+
+/*--------------------------------ibadpro--------------------------------------------*/
+@media(min-width:1024px) and (max-width:1300px){
+    .Our-trainer h3{
+        width: 69%;
+    }
+    .Our-trainer.our-program .latest-programs .single-col .col-img{
+        height: 255px;
+    }
+    .Our-trainer.our-program .latest-programs .single-col{
+        height: 374px;
+    }
+    .price .program-price .single-col .cource-desciption{
+        font-size: 13px;
+    }
+    .new-registration .new-user .form-registration .form-image.forget-password {
+        width: 334.14px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .personal-inforamtion .user-data .texts .single-col div.coutch-data .image{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/************************LARG SECREEN***************************************************/
+@media(min-width: 1400px) {
+    .new-registration .new-user .form-registration .form-image.forget-password {
+        width: 360.14px;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 1600px) {}
