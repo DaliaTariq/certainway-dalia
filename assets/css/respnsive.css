@@ -519,10 +519,14 @@
     font-size: 14px;
 }
 .tabs .course-list .single-row{
-    height: 222px;
+    height: 180px;
 }
 .tabs .course-list .single-row .course-details span{
-    margin-top: 0px
+    margin-top: -14px;
+    float: left;
+}
+.tabs .course-list .single-row .course-price {
+    margin-left: 122px;
 }
 }
 
@@ -1023,6 +1027,38 @@
 .all-courses .my-courses .course-col {
     height: 462px;
     margin-bottom: 10px;
+}
+.tabs .course-list .single-row .course-image{
+    width: 117px;
+    height: 87px;
+    margin-left: 13px;
+
+}
+.tabs .course-list .single-row .course-details{
+    width: 50%;
+}
+.tabs .course-list .single-row .course-details h4.course-name{
+    font-size: 16px;
+}
+.tabs .course-list .single-row .course-details p{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+.tabs .course-list .single-row .course-details span{
+ margin-top: 10px;
+}
+.tabs .course-list .single-row{
+    height: 125px;
+}
+.tabs .course-list .single-row .subscribe-course a{
+    padding: 10px 30px;
+}
+.tabs .course-list .single-row .course-price {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tabs .course-list .single-row .course-price strong{
+    font-size: 25px;
 }
 }
 
